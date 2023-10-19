@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Framework-css-homework-2</title>
+  </head>
+  <body class="bg-gradient-to-br from-pink-200">
+    <div class="flex flex-col sticky top-0 items-center pt-2">
+    <nav class="bg-gray-500 rounded-xl">
+      <div class="container  ">
+        <ul class="flex justify-between items-center p-4 gap-2">
+          <li><a href="#home" class="text-fuchsia-100 hover:bg-gray-500 bg-gray-700 rounded-lg border border-gray-700 p-1">Home</a></li>
+          <li><a href="#best-series" class="text-fuchsia-100 hover:bg-gray-500 bg-gray-700 rounded-lg border border-gray-700 p-1">Best series</a></li>
+          <li><a href="#shopping-list" class="text-fuchsia-100 hover:bg-gray-500 bg-gray-700 rounded-lg border border-gray-700 p-1">Shopping list</a></li>
+          <li><a href="#sign-in" class="text-fuchsia-100 hover:bg-gray-500 bg-gray-700 rounded-lg border border-gray-700 p-1">Sign in</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    </div><div class="max-w-lg mx-auto p-5 pt-10 justify-self-end">
+      <details class="open:bg-whiteopen:ring-1 open:ring-black/5 open:shadow-lg p-6 rounded-lg" closed>
+        <summary class="text-lg text-center text-gray-700 font-semibold select-none">
+          Secret!!!
+        </summary>
+        <div class="mt-3 leading-6 bg-gray-300 shadow-lg rounded-lg">
+          <img src="/design/goldendoodle.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" />
+        </div>
+      </details>
+    </div>
+  <h1 id="home" class="text-4xl md:text-6xl pt-20 pb-40 md:pt-40 px-auto md:mx-20 font-semibold text-center text-gray-700">
+    Welcome to
+    <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+      <span class="relative text-white">j0annak0walczyk</span>
+    </span>
+    IT-eresting world, where we byte the boredom and debug the dullness!
+  <div class="pb-10 mt-10">
+    <dialog open class="rounded-lg bg-gradient-to-tl from-gray-300 shadow-lg">
+    <p class="text-5xl text-gray-700">High five!</p>
+    <form method="dialog">
+      <button><img class="mx-auto h-16 w-16 object-cover rounded-full hover:border hover:border-dashed hover:border-gray-700" src="/design/high-five.jpg" alt="Hand image" /></button>
+    </form>
+  </dialog></div>
+</h1>
+  <hr>
+  <section id="best-series">
+    <div class="conteiner mx-auto p-2 md:p-10 lg:p-20"> 
+      <h2 class="text-center text-3xl text-gray-700">Best series</h2>
+      <div class="grid gap-2 grid-cols-1 md:grid-cols-3 grid-rows-6 justify-items-center p-6 md:p-10">
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-2 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Prison break</h2>
+            <img src="/design/prison-break.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-1 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Hunter x Hunter</h2>
+            <img src="/design/hunter.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-2 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Squid game</h2>
+            <img src="/design/squid.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-4 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Breaking bad</h2>
+            <img src="/design/bb.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-3 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Attack on titan</h2>
+            <img src="/design/attack.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-4 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Impractical jokers</h2>
+            <img src="/design/ij.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      <div class="flex bg-gray-500 shadow-lg row-span-2 w-full h-40 md:row-start-5 rounded-md"><h2 class="text-lg p-5 font-medium text-gray-700">Rick and Morty</h2>
+            <img src="/design/rickandmorty.jpg" class="self-center mx-auto h-32 object-cover rounded-3xl" /></div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <section id="shopping-list">
+    <div class="conteiner mx-auto p-10">
+    <h2 class="text-center text-3xl pb-8 text-gray-700">Shopping list</h2>
+    <div class="flex flex-col justify-center px:5 md:px-40 lg:px-60 pb-10 selection:bg-fuchsia-300 selection:text-fuchsia-900">
+    <table class="border border-separate border-gray-700"> 
+      <t> 
+        <th class="border border-gray-400 text-gray-700">Co?</th>
+        <th class="border border-gray-400 text-gray-700">Kiedy?</th>
+        <th class="border border-gray-400 text-gray-700">Czy jest drogie?</th>
+        <th class="border border-gray-400">Jaka będę jak to kupię?</th>
+      </t>
+      <tr>
+        <td class="border border-gray-400 text-gray-700 text-center">Okulary VR</td>
+        <td class="border border-gray-400 text-gray-700 text-center">za jakieś 8 miesięcy</td>
+        <td class="border border-gray-400 text-gray-700 text-center">tak</td>
+        <td class="border border-gray-400"><img src="/design/happy1.jpg" class="self-center mx-auto h:16 sm:h-32 rounded-3xl" /></td>
+      </tr>
+      <tr>
+        <td class="border border-gray-400 text-gray-700 text-center">Hamak do aerial jogi</td>
+        <td class="border border-gray-400 text-gray-700 text-center">za jakieś 8 miesięcy</td>
+        <td class="border border-gray-400 text-gray-700 text-center">nie</td>
+        <td class="border border-gray-400"><img src="/design/happy2.jpg" class="self-center mx-auto h:20 sm:h-32 rounded-3xl" /></td>
+      </tr>
+      <tr>
+        <td class="border border-gray-400 text-gray-700 text-center">Dom</td>
+        <td class="border border-gray-400 text-gray-700 text-center">za jakieś 4 lata</td>
+        <td class="border border-gray-400 text-gray-700 text-center">tak</td>
+        <td class="border border-gray-400"><img src="/design/happy3.png" class="self-center mx-auto h:20 sm:h-32 rounded-3xl" /></td>
+      </tr>
+      <tr>
+        <td class="border border-gray-400 text-gray-700 text-center">Kurs React Jonasa na UDEMY</td>
+        <td class="border border-gray-400 text-gray-700 text-center">za jakieś 1-2 tygodnie</td>
+        <td class="border border-gray-400 text-gray-700 text-center">nie</td>
+        <td class="border border-gray-400"><img src="/design/happy4.jpg" class="self-center mx-auto h:20 sm:h-32 rounded-3xl" /></td>
+      </tr>
+    </table></div>
+    <hr>
+  </div>
+  </section>
+<section id="sign-in">
+  <div class="conteiner mx-auto p-10">
+  <h2 class="text-center text-3xl pb-8 text-gray-700 ">Sign in</h2>
+    <div class="container py-5 mx-auto w-64 md:w-96">
+      <form class="bg-gradient-to-tl from-gray-300 shadow-lg flex flex-col gap-y-2 p-6 md:p-10 rounded-lg">
+        <div class="mt-5 mb-5 flex items-center space-x-6 flex-col">
+          <div class="shrink-0">
+            <img class="mx-auto h-16 w-16 object-cover rounded-full" src="/design/HD-wallpaper-cute-kitty-cute-kitty.jpg" alt="Current profile photo" />
+          </div>
+          <label class="block">
+            <p class="text-center text-sm py-2 text-gray-500">Choose profile photo</p>
+            <input type="file" accept="image/png, image/jpeg" class="block w-full text-sm text-gray-500
+              file:mr-4 file:py-2 file:px-4
+              file:rounded-full file:border-0
+              file:text-sm file:font-semibold
+              file:bg-fuchsia-200 file:text-fuchsia-700
+              hover:file:bg-fuchsia-300
+            "/>
+          </label>
+        </div>
+        <label class="text-fuchsia-700 font-semibold" for="uname">User name</label>
+        <input
+          class="block border border-zinc-300 rounded-sm py-1 pl-3 shadow-sm focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 placeholder:text-sm"
+          type="text"
+          name="uname"
+          id="uname"
+          placeholder="Enter your name"
+        />
+        <label class="text-fuchsia-700 font-semibold" for="email">Email</label>
+        <input
+          class="peer block border border-zinc-300 rounded-sm py-1 pl-3 shadow-sm focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 placeholder:text-sm"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <p class="mt-1 invisible peer-invalid:visible text-pink-600 text-sm">
+          Please provide a valid email address.
+        </p>
+        <label class="text-fuchsia-700 font-semibold" for="pwd">Password</label>
+        <input
+          class="block border border-zinc-300 rounded-sm py-1 pl-3 shadow-sm focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 placeholder:text-sm "
+          type="password"
+          name="pwd"
+          id="pwd"
+          placeholder="Create password"
+        />
+        <label class="text-fuchsia-700 font-semibold" for="rpd-psw"
+          >Repeat password</label
+        >
+        <input
+          class="mb-10 block border border-zinc-300 rounded-sm py-1 pl-3 shadow-sm focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 placeholder:text-sm"
+          type="password"
+          name="rpd-psw"
+          id="rpd-psw"
+          placeholder="Repeat password"
+        />
+        <label class="text-fuchsia-700 font-semibold" for="voi">
+          Choose your voivodeship: 
+        </label>
+        <select class="text-gray-500 " name="voi" id="voi">
+          <option class="text-gray-500 font-semibold" value="Lower-Silesian">Lower Silesian</option>
+          <option class="text-gray-500 font-semibold" value="Kuyavian-Pomeranian">Kuyavian-Pomeranian</option>
+          <option class="text-gray-500 font-semibold" value="Lublin">Lublin</option>
+          <option class="text-gray-500 font-semibold" value="Lubusz">Lubusz</option>
+          <option class="text-gray-500 font-semibold" value="Lodz">Łódź</option>
+          <option class="text-gray-500 font-semibold" value="Lesser Poland">Lesser Poland</option>
+          <option class="text-gray-500 font-semibold" value="Masovian">Masovian</option>
+          <option class="text-gray-500 font-semibold" value="Opole">Opole</option>
+          <option class="text-gray-500 font-semibold" value="Subcarpathian">Subcarpathian</option>
+          <option class="text-gray-500 font-semibold" value="Podlaskie">Podlaskie</option>
+          <option class="text-gray-500 font-semibold" value="Pomeranian">Pomeranian</option>
+          <option class="text-gray-500 font-semibold" value="Silesian">Silesian</option>
+          <option class="text-gray-500 font-semibold" value="Holy-Cross">Holy Cross</option>
+          <option class="text-gray-500 font-semibold" value="Warmian-Masurian">Warmian-Masurian</option>
+          <option class="text-gray-500 font-semibold" value="Greater-Poland">Greater Poland</option>
+          <option class="text-gray-500 font-semibold" value="West-Pomeranian">West Pomeranian</option>
+        </select>
+        <fieldset class="mt-2"> 
+        <legend class="text-fuchsia-700 font-semibold"> Choose your weapon:</legend>
+          <div>
+            <input type="checkbox" class=" checked:bg-fuchsia-500"  for="sword" id="sword">
+          <label class="text-gray-700 text-sm" for="sword">Sword</label>
+        </div>
+        <div>
+          <input type="checkbox" for="gun" id="gun">
+          <label class="text-gray-700 text-sm" for="gun">Gun</label>
+        </div>
+      </fieldset>
+        <input
+          class="mt-5 p-2 border text-white bg-fuchsia-800 border-fuchsia-800 rounded-lg hover:bg-white hover:text-fuchsia-700 hover:border-double hover:border-fuchsia-700"
+          type="submit"
+          value="SUBMIT"
+        />
+    </label>
+  </form></div>
+  </div>
+  <hr> 
+</section>
+  </body>
+</html>
